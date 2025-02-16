@@ -1,0 +1,221 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-page {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0; /* Remove side margins */
+  width: 100vw; /* Fit into the browser size */
+  font-family: 'Inria Sans', sans-serif; /* Change to Inria Sans */
+}
+.header-top {
+  background-color: #b22222;
+  display: flex;
+  width: 100%;
+  gap: 10px; /* Decrease gap */
+  flex-wrap: nowrap; /* Ensure elements are on the same line */
+  justify-content: space-between;
+  align-items: center; /* Align items vertically */
+  padding: 10px 78px; /* Reduce padding */
+  font: 16px 'Inria Sans', sans-serif; /* Change to Inria Sans */
+  color: #fff; /* Change font color to white */
+  margin: 0; /* Remove side margins */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+@media (max-width: 991px) {
+  .header-top {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+.header-info {
+  display: flex;
+  gap: 10px; /* Decrease gap */
+  color: #fff; /* Change font color to white */
+  font-weight: 700;
+  margin: auto 0;
+}
+@media (max-width: 991px) {
+  .header-info {
+    max-width: 100%;
+  }
+}
+.website-link {
+  flex-basis: auto;
+}
+.presidents-corner {
+  flex-basis: auto;
+}
+.governance {
+  flex-basis: auto;
+}
+.search-bar {
+  border-radius: 25px;
+  background-color: #d5cccc;
+  color: #000;
+  font-weight: 300;
+  white-space: nowrap;
+  padding: 5px 20px; /* Adjust padding */
+  border: 1px solid #b22222; /* Add border to match header color */
+  margin-left: 1in; /* Adjust margin to fit within 2-inch margin */
+  margin-right: 1in; /* Adjust margin to fit within 2-inch margin */
+}
+@media (max-width: 991px) {
+  .search-bar {
+    white-space: initial;
+    padding: 0 20px;
+  }
+}
+.header-main {
+  background-color: rgba(178, 34, 34, 0.9);
+  z-index: 10;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  color: #fff; /* Change font color to white */
+  padding: 18px 80px 10px 21px; /* Reduce bottom padding */
+  margin: 0; /* Remove side margins */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+@media (max-width: 991px) {
+  .header-main {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+.logo-container {
+  align-self: start;
+  display: flex;
+  gap: 13px;
+  flex-wrap: wrap;
+  margin-left: 0; /* Move to the leftmost side */
+}
+.university-logo {
+  aspect-ratio: 1.08;
+  object-fit: contain;
+  object-position: center;
+  width: 104px;
+  max-width: 100%;
+}
+.university-info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 0;
+  width: fit-content;
+  margin: auto 0;
+}
+@media (max-width: 991px) {
+  .university-info {
+    max-width: 100%;
+  }
+}
+.university-name {
+  font: 700 24px 'Inria Sans', sans-serif; /* Change to Inria Sans */
+}
+@media (max-width: 991px) {
+  .university-name {
+    max-width: 100%;
+  }
+}
+.university-tagline {
+  align-self: start;
+  margin-top: 16px;
+  font: 500 20px 'Inria Sans', sans-serif; /* Change to Inria Sans */
+}
+.navigation {
+  align-self: center; /* Center the navigation */
+  display: flex;
+  justify-content: center; /* Center the buttons */
+  flex-wrap: nowrap; /* Ensure buttons are on the same line */
+  margin-top: 20px; /* Reduce top margin */
+  width: calc(100% - 4in); /* Adjust width to account for margins */
+  gap: 10px; /* Reduce gap to fit new dimensions */
+  font: 700 18px 'Inria Sans', sans-serif; /* Change to Inria Sans */
+  padding: 0 2in; /* Add 2-inch padding on both sides */
+  transform: translateX(20px); /* Move navigation slightly to the right */
+}
+@media (max-width: 991px) {
+  .navigation {
+    max-width: 100%;
+    flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+  }
+}
+.nav-item-admission {
+  flex-grow: 1;
+  width: 90px;  
+}
+.nav-item-administration {
+  flex-grow: 1;
+  width: 144px;
+}
+.main-content {
+  background-color: #f5f5f5;
+  display: flex;
+  min-height: 740px;
+  width: 100%;
+  margin: 0; /* Remove side margins */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+@media (max-width: 991px) {
+  .main-content {
+    max-width: 100%;
+  }
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+button {
+  background-color: #b22222; /* Match header color */
+  color: #fff;
+  border: none;
+  padding: 6px 12px; /* Adjust button size */
+  font: 700 16px 'Inria Sans', sans-serif; /* Change to Inria Sans */
+  cursor: pointer;
+  border-radius: 5px;
+  flex: 1; /* Ensure buttons have consistent sizes */
+  min-width: 120px; /* Reduce minimum width to fit within margins */
+  text-align: center; /* Center the text inside the buttons */
+}
+button:hover {
+  background-color: #a11d1d; /* Darken on hover */
+}
+
+.invisible-section {
+  margin: 20px 2in; /* Add 2-inch x-axis margin and top margin */
+  padding: 20px 0; /* Add some padding */
+}
+.breadcrumb {
+  margin-bottom: 10px; /* Add some space below the breadcrumb */
+  font-size: 14px; /* Adjust font size */
+  color: #000; /* Change font color */
+}
+.breadcrumb a {
+  color: #b22222; /* Change link color */
+  text-decoration: none; /* Remove underline */
+}
+.breadcrumb a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+.college-header {
+  font-size: 24px; /* Adjust font size */
+  font-weight: 700; /* Make the font bold */
+  margin-bottom: 10px; /* Add some space below the header */
+}
+.college-info {
+  font-size: 16px; /* Adjust font size */
+  line-height: 1.5; /* Adjust line height */
+}
