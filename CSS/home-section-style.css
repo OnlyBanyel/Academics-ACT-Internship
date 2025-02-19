@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+ul, li{
+  list-style: none;
+}
+
 .home-page {
   background-color: #fff;
   display: flex;
@@ -218,4 +222,76 @@ button:hover {
 .college-info {
   font-size: 16px; /* Adjust font size */
   line-height: 1.5; /* Adjust line height */
+}
+
+.nav-item-academis{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  color: white;
+  padding: 15px;
+  position: relative;
+}
+
+
+.dropdown-container {
+  position: absolute;
+  top: 100%;
+  left: -200;
+  background: white; /* Adjust as needed */
+  z-index: 1000;
+  width: max-content;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0; /* Set opacity to 0 (invisible) */
+  pointer-events: none; /* Disable interaction when not visible */
+  transition: opacity 0.3s ease-in-out; /* Smooth fade effect */
+}
+
+.nav-item-academics:hover .dropdown-container,
+.dropdown-container:hover {
+  display: block;
+  display: block;
+  opacity: 1; /* Make it fully visible */
+  pointer-events: auto; /* Enable interaction when visible */
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  width: 120%;
+  background: #717171;
+  padding: 15px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.navbar:hover .dropdown {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.dropdown a {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-one, .dropdown-two, .dropdown-three, .dropdown-four, .dropdown-five{
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.dropdown-one h2, .dropdown-two h2, .dropdown-three h2, .dropdown-four h2, .dropdown-five h2{
+  color: crimson;
+}
+
+
+
+.dropdown-content-one, .dropdown-content-two, .dropdown-content-three, .dropdown-content-four, .dropdown-content-five{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
