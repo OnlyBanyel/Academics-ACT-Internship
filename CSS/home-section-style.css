@@ -12,6 +12,7 @@ ul, li{
   background-color: #fff;
   display: flex;
   flex-direction: column;
+  min-height: 780px;
   overflow: hidden;
   margin: 0; /* Remove side margins */
   width: 100vw; /* Fit into the browser size */
@@ -158,14 +159,6 @@ ul, li{
   flex-grow: 1;
   width: 144px;
 }
-.main-content {
-  background-color: #f5f5f5;
-  display: flex;
-  min-height: 740px;
-  width: 100%;
-  margin: 0; /* Remove side margins */
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */
-}
 @media (max-width: 991px) {
   .main-content {
     max-width: 100%;
@@ -198,31 +191,6 @@ button:hover {
   background-color: #a11d1d; /* Darken on hover */
 }
 
-.invisible-section {
-  margin: 20px 2in; /* Add 2-inch x-axis margin and top margin */
-  padding: 20px 0; /* Add some padding */
-}
-.breadcrumb {
-  margin-bottom: 10px; /* Add some space below the breadcrumb */
-  font-size: 14px; /* Adjust font size */
-  color: #000; /* Change font color */
-}
-.breadcrumb a {
-  color: #b22222; /* Change link color */
-  text-decoration: none; /* Remove underline */
-}
-.breadcrumb a:hover {
-  text-decoration: underline; /* Add underline on hover */
-}
-.college-header {
-  font-size: 24px; /* Adjust font size */
-  font-weight: 700; /* Make the font bold */
-  margin-bottom: 10px; /* Add some space below the header */
-}
-.college-info {
-  font-size: 16px; /* Adjust font size */
-  line-height: 1.5; /* Adjust line height */
-}
 
 .nav-item-academis{
   position: relative;
