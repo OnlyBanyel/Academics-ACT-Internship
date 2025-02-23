@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-ul, li{
-  list-style: none;
+.dropdown{
+  list-style-type: none;
 }
 
 .home-page {
@@ -17,6 +17,7 @@ ul, li{
   width: 100vw; /* Fit into the browser size */
   font-family: 'Inria Sans', sans-serif; /* Change to Inria Sans */
   position: relative; /* Add relative positioning */
+  list-style-type: none;
 }
 .header-top {
   background-color: #b22222;
@@ -251,6 +252,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 5px; /* Adjust gap */
+  list-style-type: none;
 }
 
 .dropdown a {

@@ -20,6 +20,7 @@
 <main class="main-content">
     
     <section class="tags">
+      <div class="acads">
         <h1>Academics</h1>
         <div class="dropdown-one">
                     <h2>Graduates</h2>
@@ -59,5 +60,27 @@
             <li><a href="BasicEd/shs.php">Senior High School</a></li>
             </ul>
         </div>
+      </div>
+
+      <div class="admissions">
+      <h1>Admissions</h1>
+        <div class="dropdown-one">
+                    <h2>Graduates</h2>
+                    <ul class="dropdown-content-five">
+                <li><a href="#">Admission Guide</a></li>
+                <li><a href="#">Enrollment Procedure</a></li>
+                  <ul><a href="#">Online Registration</a>
+                      <ul><a href="#">Undergraduate</a>
+                        <li><a href="#">Incoming Student</a></li>
+                        <li><a href="#">Old Student</a></li>
+                      </ul>
+                    <li><a href="#">Graduate</a></li>
+                    <li><a href="#">Medicine</a></li>
+                  </ul>
+              </ul>
+        </div>
+      </div>
     </section>
+    
+
 </main>
