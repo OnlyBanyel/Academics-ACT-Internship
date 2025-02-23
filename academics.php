@@ -25,8 +25,8 @@
         <div class="dropdown-one">
                     <h2>Graduates</h2>
                     <ul class="dropdown-content-one">
-                        <li><a href="Graduates/Medicine.php">Medicine</a></li>
-                        <li><a href="Graduates/Law.php">Law</a></li>
+                        <li><a href="Graduates/medicine.php">Medicine</a></li>
+                        <li><a href="Graduates/law.php">Law</a></li>
                     </ul>
         </div>
 
@@ -65,21 +65,23 @@
       <div class="admissions">
       <h1>Admissions</h1>
         <div class="dropdown-one">
-                    <h2>Graduates</h2>
+                    <h2>Guide</h2>
                     <ul class="dropdown-content-five">
-                <li><a href="#">Admission Guide</a></li>
-                <li><a href="#">Enrollment Procedure</a></li>
-                  <ul><a href="#">Online Registration</a>
-                      <ul><a href="#">Undergraduate</a>
-                        <li><a href="#">Incoming Student</a></li>
-                        <li><a href="#">Old Student</a></li>
-                      </ul>
-                    <li><a href="#">Graduate</a></li>
-                    <li><a href="#">Medicine</a></li>
-                  </ul>
+                      <li><a href="Admissions/admissionGuide.php">Admission Guide</a></li>
+                      <li><a href="Admissions/enrollmentProced.php">Enrollment Procedure</a></li>
+
+                        <h2>Online Registration</h2>
+                          <li><a href="Admissions/OnlineReg/undergraduate.php">Undergraduate</a></li>
+                          <li><a href="Admissions/OnlineReg/incoming.php">Incoming Student</a></li>
+                          <li><a href="Admissions/OnlineReg/oldStud.php">Old Student</a></li>
+                          <li><a href="Admissions/OnlineReg/graduate.php">Graduate</a></l>
+                          <li><a href="Admissions/OnlineReg/medicine.php">Medicine</a></li>
+                    </ul>
               </ul>
         </div>
       </div>
+
+      <div class="empty-class"></div>
     </section>
     
 
