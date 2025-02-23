@@ -12,11 +12,11 @@ ul, li{
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  min-height: 500px;
-  overflow: hidden;
+  overflow: visible; /* Change to visible to allow overflow */
   margin: 0; /* Remove side margins */
   width: 100vw; /* Fit into the browser size */
   font-family: 'Inria Sans', sans-serif; /* Change to Inria Sans */
+  position: relative; /* Add relative positioning */
 }
 .header-top {
   background-color: #b22222;
@@ -193,7 +193,6 @@ button:hover {
   background-color: #a11d1d; /* Darken on hover */
 }
 
-
 .nav-item-academis{
   position: relative;
   display: flex;
@@ -210,20 +209,18 @@ button:hover {
   top: 100%;
   left: 0; /* Align to the left */
   background: transparent; /* Remove background */
-  z-index: 1000;
+  z-index: 1000; /* Ensure it is above other elements */
   width: 100%; /* Make it full width */
   box-shadow: none; /* Remove box shadow */
-  opacity: 0; /* Set opacity to 0 (invisible) */
-  pointer-events: none; /* Disable interaction when not visible */
+  display: none;
   transition: opacity 0.3s ease-in-out; /* Smooth fade effect */
-  padding: 5px; /* Adjust padding */
+  padding: 0; /* Remove padding */
   box-sizing: border-box; /* Include padding in the element's total width and height */
 }
 
 .nav-item-academics:hover .dropdown-container,
 .dropdown-container:hover {
   display: block;
-  opacity: 1; /* Make it fully visible */
   pointer-events: auto; /* Enable interaction when visible */
 }
 
@@ -236,6 +233,7 @@ button:hover {
   border-bottom-right-radius: 10px; /* Adjust border radius */
   border-bottom-left-radius: 10px; /* Adjust border radius */
   gap: 10px; /* Adjust gap */
+  z-index: 1001; /* Ensure it is above the dropdown container */
 }
 
 .dropdown-one, .dropdown-two, .dropdown-three, .dropdown-four, .dropdown-five {
