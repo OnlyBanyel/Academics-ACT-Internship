@@ -1,4 +1,19 @@
-<link rel="stylesheet" href="/CSS/CCS-style.css">  
+<head>
+<style>
+  <?php require_once '../CSS/CCS-style.css'; ?>  
+</style>
+<script src="../vendor/jquery-3.7.1/jquery-3.7.1.min.js"></script>
+</head>
+
+<script>
+  jQuery(function(){
+    jQuery('.header').load('../test-header.php');
+  });
+</script>
+
+<section class="header">
+  <!-- Header -->
+</section>
 <main class="main-content">
       <section class="invisible-section">
         <nav class="breadcrumb">

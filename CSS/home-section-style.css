@@ -12,7 +12,7 @@ ul, li{
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  min-height: 780px;
+  min-height: 500px;
   overflow: hidden;
   margin: 0; /* Remove side margins */
   width: 100vw; /* Fit into the browser size */
@@ -22,12 +22,12 @@ ul, li{
   background-color: #b22222;
   display: flex;
   width: 100%;
-  gap: 10px; /* Decrease gap */
+  gap: 5px; /* Decrease gap */
   flex-wrap: nowrap; /* Ensure elements are on the same line */
   justify-content: space-between;
   align-items: center; /* Align items vertically */
-  padding: 10px 78px; /* Reduce padding */
-  font: 16px 'Inria Sans', sans-serif; /* Change to Inria Sans */
+  padding: 5px 40px; /* Reduce padding */
+  font: 14px 'Inria Sans', sans-serif; /* Change to Inria Sans and reduce font size */
   color: #fff; /* Change font color to white */
   margin: 0; /* Remove side margins */
   box-sizing: border-box; /* Include padding and border in the element's total width and height */
@@ -40,10 +40,11 @@ ul, li{
 }
 .header-info {
   display: flex;
-  gap: 10px; /* Decrease gap */
+  gap: 5px; /* Decrease gap */
   color: #fff; /* Change font color to white */
   font-weight: 700;
   margin: auto 0;
+  font-size: 14px; /* Reduce font size */
 }
 @media (max-width: 991px) {
   .header-info {
@@ -65,10 +66,11 @@ ul, li{
   color: #000;
   font-weight: 300;
   white-space: nowrap;
-  padding: 5px 20px; /* Adjust padding */
+  padding: 5px 10px; /* Adjust padding */
   border: 1px solid #b22222; /* Add border to match header color */
-  margin-left: 1in; /* Adjust margin to fit within 2-inch margin */
-  margin-right: 1in; /* Adjust margin to fit within 2-inch margin */
+  margin-left: 0.5in; /* Adjust margin to fit within 1-inch margin */
+  margin-right: 0.5in; /* Adjust margin to fit within 1-inch margin */
+  font-size: 14px; /* Reduce font size */
 }
 @media (max-width: 991px) {
   .search-bar {
@@ -83,7 +85,7 @@ ul, li{
   width: 100%;
   flex-direction: column;
   color: #fff; /* Change font color to white */
-  padding: 18px 80px 10px 21px; /* Reduce bottom padding */
+  padding: 10px 40px 5px 10px; /* Reduce padding */
   margin: 0; /* Remove side margins */
   box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
@@ -121,7 +123,7 @@ ul, li{
   }
 }
 .university-name {
-  font: 700 24px 'Inria Sans', sans-serif; /* Change to Inria Sans */
+  font: 700 20px 'Inria Sans', sans-serif; /* Change to Inria Sans and reduce font size */
 }
 @media (max-width: 991px) {
   .university-name {
@@ -130,20 +132,20 @@ ul, li{
 }
 .university-tagline {
   align-self: start;
-  margin-top: 16px;
-  font: 500 20px 'Inria Sans', sans-serif; /* Change to Inria Sans */
+  margin-top: 10px;
+  font: 500 16px 'Inria Sans', sans-serif; /* Change to Inria Sans and reduce font size */
 }
 .navigation {
   align-self: center; /* Center the navigation */
   display: flex;
   justify-content: center; /* Center the buttons */
   flex-wrap: nowrap; /* Ensure buttons are on the same line */
-  margin-top: 20px; /* Reduce top margin */
-  width: calc(100% - 4in); /* Adjust width to account for margins */
-  gap: 10px; /* Reduce gap to fit new dimensions */
-  font: 700 18px 'Inria Sans', sans-serif; /* Change to Inria Sans */
-  padding: 0 2in; /* Add 2-inch padding on both sides */
-  transform: translateX(20px); /* Move navigation slightly to the right */
+  margin-top: 10px; /* Reduce top margin */
+  width: calc(100% - 2in); /* Adjust width to account for margins */
+  gap: 5px; /* Reduce gap to fit new dimensions */
+  font: 700 16px 'Inria Sans', sans-serif; /* Change to Inria Sans and reduce font size */
+  padding: 0 1in; /* Add 1-inch padding on both sides */
+  transform: translateX(10px); /* Move navigation slightly to the right */
 }
 @media (max-width: 991px) {
   .navigation {
@@ -179,12 +181,12 @@ button {
   background-color: #b22222; /* Match header color */
   color: #fff;
   border: none;
-  padding: 6px 12px; /* Adjust button size */
-  font: 700 16px 'Inria Sans', sans-serif; /* Change to Inria Sans */
+  padding: 4px 8px; /* Adjust button size */
+  font: 700 14px 'Inria Sans', sans-serif; /* Change to Inria Sans and reduce font size */
   cursor: pointer;
   border-radius: 5px;
   flex: 1; /* Ensure buttons have consistent sizes */
-  min-width: 120px; /* Reduce minimum width to fit within margins */
+  min-width: 100px; /* Reduce minimum width to fit within margins */
   text-align: center; /* Center the text inside the buttons */
 }
 button:hover {
@@ -203,23 +205,23 @@ button:hover {
   position: relative;
 }
 
-
 .dropdown-container {
   position: absolute;
   top: 100%;
-  left: -200;
-  background: white; /* Adjust as needed */
+  left: 0; /* Align to the left */
+  background: transparent; /* Remove background */
   z-index: 1000;
-  width: max-content;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%; /* Make it full width */
+  box-shadow: none; /* Remove box shadow */
   opacity: 0; /* Set opacity to 0 (invisible) */
   pointer-events: none; /* Disable interaction when not visible */
   transition: opacity 0.3s ease-in-out; /* Smooth fade effect */
+  padding: 5px; /* Adjust padding */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
 }
 
 .nav-item-academics:hover .dropdown-container,
 .dropdown-container:hover {
-  display: block;
   display: block;
   opacity: 1; /* Make it fully visible */
   pointer-events: auto; /* Enable interaction when visible */
@@ -228,38 +230,33 @@ button:hover {
 .dropdown {
   display: flex;
   justify-content: space-between;
-  width: 120%;
+  width: 100%; /* Adjust width */
   background: #717171;
-  padding: 15px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+  padding: 10px; /* Adjust padding */
+  border-bottom-right-radius: 10px; /* Adjust border radius */
+  border-bottom-left-radius: 10px; /* Adjust border radius */
+  gap: 10px; /* Adjust gap */
 }
 
-.navbar:hover .dropdown {
+.dropdown-one, .dropdown-two, .dropdown-three, .dropdown-four, .dropdown-five {
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  flex-direction: column;
+  gap: 10px; /* Adjust gap */
+}
+
+.dropdown-one h2, .dropdown-two h2, .dropdown-three h2, .dropdown-four h2, .dropdown-five h2 {
+  color: crimson;
+  font-size: 14px; /* Adjust font size */
+}
+
+.dropdown-content-one, .dropdown-content-two, .dropdown-content-three, .dropdown-content-four, .dropdown-content-five {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Adjust gap */
 }
 
 .dropdown a {
   color: white;
   text-decoration: none;
-}
-
-.dropdown-one, .dropdown-two, .dropdown-three, .dropdown-four, .dropdown-five{
-  display: flex;
-  flex-direction: column;
-  gap: 35px;
-}
-
-.dropdown-one h2, .dropdown-two h2, .dropdown-three h2, .dropdown-four h2, .dropdown-five h2{
-  color: crimson;
-}
-
-
-
-.dropdown-content-one, .dropdown-content-two, .dropdown-content-three, .dropdown-content-four, .dropdown-content-five{
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+  font-size: 12px; /* Adjust font size */
 }
