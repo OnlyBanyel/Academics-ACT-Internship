@@ -228,7 +228,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
   width: 100%; /* Adjust width */
-  background: #717171;
+  background: rgba(220, 20, 60, 0.9);
   padding: 10px; /* Adjust padding */
   border-bottom-right-radius: 10px; /* Adjust border radius */
   border-bottom-left-radius: 10px; /* Adjust border radius */
@@ -243,8 +243,13 @@ button:hover {
   gap: 10px; /* Adjust gap */
 }
 
+.dropdown-three, .dropdown-four, .dropdown-five {
+  border-left: 2px solid rgba(230, 230, 230, 0.9); /* Add left border */
+  padding-left: 40px; /* Adjust padding */
+}
+
 .dropdown-one h2, .dropdown-two h2, .dropdown-three h2, .dropdown-four h2, .dropdown-five h2 {
-  color: crimson;
+  color: rgb(255, 255, 255);
   font-size: 14px; /* Adjust font size */
 }
 

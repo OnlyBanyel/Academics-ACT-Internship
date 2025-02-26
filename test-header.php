@@ -44,18 +44,10 @@
         <div class="dropdown-container">
           <div class="dropdown">
 
-            <div class="dropdown-one">
-              <h2>Graduates</h2>
-              <ul class="dropdown-content-one">
-              <li><a href="Subpages/Graduates/medicine.php">Medicine</a></li>
-              <li><a href="Subpages/Graduates/law.php">Law</a></li>
-              </ul>
-            </div>
-
             <div class="dropdown-two">
-              <h2>Undergraduates</h2>
+              <h2>College Department</h2>
               <ul class="dropdown-content-two">
-                <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/law.php'; ?>">College of Law</a></li>
+                <li><a href="<?php  echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/law.php'; ?>">College of Law</a></li>
                 <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/agriculture'; ?>">College of Agriculture</a></li>
                 <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/architecture'; ?>">College of Architecture</a></li>
                 <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/liberalArts'; ?>">College of Liberal Arts</a></li>
