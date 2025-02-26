@@ -142,11 +142,10 @@
   justify-content: center; /* Center the buttons */
   flex-wrap: nowrap; /* Ensure buttons are on the same line */
   margin-top: 10px; /* Reduce top margin */
-  width: calc(100% - 2in); /* Adjust width to account for margins */
+  width: 100%; /* Adjust width to account for margins */
   gap: 5px; /* Reduce gap to fit new dimensions */
   font: 700 16px 'Inria Sans', sans-serif; /* Change to Inria Sans and reduce font size */
   padding: 0 1in; /* Add 1-inch padding on both sides */
-  transform: translateX(10px); /* Move navigation slightly to the right */
 }
 @media (max-width: 991px) {
   .navigation {
@@ -236,6 +235,7 @@ button:hover {
   gap: 10px; /* Adjust gap */
   z-index: 1001; /* Ensure it is above the dropdown container */
 }
+
 
 .dropdown-one, .dropdown-two, .dropdown-three, .dropdown-four, .dropdown-five {
   display: flex;
