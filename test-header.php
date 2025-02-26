@@ -47,31 +47,30 @@
             <div class="dropdown-one">
               <h2>Graduates</h2>
               <ul class="dropdown-content-one">
-                <li><a href="#">Graduate Programs</a></li>
-                <li><a href="#">Medicine</a></li>
-                <li><a href="#">Law</a></li>
+              <li><a href="Subpages/Graduates/medicine.php">Medicine</a></li>
+              <li><a href="Subpages/Graduates/law.php">Law</a></li>
               </ul>
             </div>
 
             <div class="dropdown-two">
               <h2>Undergraduates</h2>
               <ul class="dropdown-content-two">
-              <li><a href="../Subpages/law">College of Law</a></li>
-              <li><a href="../Subpages/agriculture">College of Agriculture</a></li>
-              <li><a href="../Subpages/architecture">College of Architecture</a></li>
-              <li><a href="../Subpages/liberalArts">College of Liberal Arts</a></li>
-              <li><a href="../Subpages/nursing">College of Nursing</a></li>
-              <li><a href="../Subpages/asianAndIslamic">College of Asian and Islamic Studies</a></li>
-              <li><a href="../Subpages/CCS.php">College of Computing Studies</a></li>
-              <li><a href="../Subpages/forestryAndEnvironmental.php">College of Forestry and Environmental Studies</a></li>
-              <li><a href="../Subpages/crim.php">College of Criminal Justice Education</a></li>
-              <li><a href="../Subpages/homeEcon.php">College of Home Economics</a></li>
-              <li><a href="../Subpages/engineering.php">College of Engineering</a></li>
-              <li><a href="../Subpages/medicine.php">College of Medicine</a></li>
-              <li><a href="../Subpages/publicAdmin.php">College of Public Administration and Development Studies</a></li>
-              <li><a href="../Subpages/sportsScience.php">College of Sports Science and Physical Education</a></li>
-              <li><a href="../Subpages/socialWork.php">College of Social Work and Community Development</a></li>
-              <li><a href="../Subpages/teachingEd.php">College of Teaching Education</a></li>
+                <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/law.php'; ?>">College of Law</a></li>
+                <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/agriculture'; ?>">College of Agriculture</a></li>
+                <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/architecture'; ?>">College of Architecture</a></li>
+                <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/liberalArts'; ?>">College of Liberal Arts</a></li>
+                <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/nursing'; ?>">College of Nursing</a></li>
+                <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/asianAndIslamic'; ?>">College of Asian and Islamic Studies</a></li>
+                <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/CCS.php'; ?>">College of Computing Studies</a></li>
+                <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/forestryAndEnvironmental.php'; ?>">College of Forestry and Environmental Studies</a></li>
+                <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/crim.php'; ?>">College of Criminal Justice Education</a></li>
+                <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/homeEcon.php'; ?>">College of Home Economics</a></li>
+                <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/engineering.php'; ?>">College of Engineering</a></li>
+                <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/medicine.php'; ?>">College of Medicine</a></li>
+                <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/publicAdmin.php'; ?>">College of Public Administration and Development Studies</a></li>
+                <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/sportsScience.php'; ?>">College of Sports Science and Physical Education</a></li>
+                <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/socialWork.php'; ?>">College of Social Work and Community Development</a></li>
+                <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/teachingEd.php'; ?>">College of Teaching Education</a></li>
               </ul>
             </div>
 

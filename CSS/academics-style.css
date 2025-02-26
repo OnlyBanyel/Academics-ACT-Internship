@@ -27,4 +27,5 @@
   gap: 30px;
   display: flex;
   flex-direction: column;
+  list-style-type: none;
 }
