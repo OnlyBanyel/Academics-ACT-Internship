@@ -53,6 +53,7 @@
                 <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/liberalArts.php'; ?>">College of Liberal Arts</a></li>
                 <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/nursing.php'; ?>">College of Nursing</a></li>
                 <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/asianAndIslamic.php'; ?>">College of Asian and Islamic Studies</a></li>
+                <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/CSM.php'; ?>">College of Science and Mathematics</a></li>
                 <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/CCS.php'; ?>">College of Computing Studies</a></li>
                 <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/forestryAndEnvironmental.php'; ?>">College of Forestry and Environmental Studies</a></li>
                 <li><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Undergraduates/crim.php'; ?>">College of Criminal Justice Education</a></li>

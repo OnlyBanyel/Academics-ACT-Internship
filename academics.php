@@ -40,6 +40,7 @@
                     <li><a href="Subpages/Undergraduates/nursing.php">College of Nursing</a></li>
                     <li><a href="Subpages/Undergraduates/asianAndIslamic.php">College of Asian and Islamic Studies</a></li>
                     <li><a href="Subpages/Undergraduates/CCS.php">College of Computing Studies</a></li>
+                    <li><a href="Subpages/Undergraduates/CSM.php">College of Science and Mathematics</a></li>
                     <li><a href="Subpages/Undergraduates/forestryAndEnvironmental.php">College of Forestry and Environmental Studies</a></li>
                     <li><a href="Subpages/Undergraduates/crim.php">College of Criminal Justice Education</a></li>
                     <li><a href="Subpages/Undergraduates/homeEcon.php">College of Home Economics</a></li>
