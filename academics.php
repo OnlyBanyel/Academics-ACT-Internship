@@ -42,7 +42,7 @@
                     <li><a href="Subpages/Undergraduates/CCS.php">College of Computing Studies</a></li>
                     <li><a href="Subpages/Undergraduates/CSM.php">College of Science and Mathematics</a></li>
                     <li><a href="Subpages/Undergraduates/forestryAndEnvironmental.php">College of Forestry and Environmental Studies</a></li>
-                    <li><a href="Subpages/Undergraduates/crim.php">College of Criminal Justice Education</a></li>
+                    <li><a href="Subpages/Undergraduates/CCJE.php">College of Criminal Justice Education</a></li>
                     <li><a href="Subpages/Undergraduates/homeEcon.php">College of Home Economics</a></li>
                     <li><a href="Subpages/Undergraduates/engineering.php">College of Engineering</a></li>
                     <li><a href="Subpages/Undergraduates/medicine.php">College of Medicine</a></li>
