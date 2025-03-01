@@ -97,9 +97,9 @@
             <div class="dropdown-five">
               <h2>Admissions</h2>
               <ul class="dropdown-content-five">
-                <li><a href="#">Admission Guide</a></li>
-                <li><a href="#">Enrollment Procedure</a></li>
-                  <ul><a href="#">Online Registration</a>
+              <li><a href="<?php  echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Admissions/admissionGuide.php'; ?>">Admission Guide</a></li>
+              <li><a href="<?php  echo 'http://' . $_SERVER['HTTP_HOST'] . '/Academics-ACT-Internship/Subpages/Admissions/enrollmentProced.php'; ?>">Enrollment Procedure</a></li>
+              <ul><a href="#">Online Registration</a>
                       <ul><a href="#">Undergraduate</a>
                         <li><a href="#">Incoming Student</a></li>
                         <li><a href="#">Old Student</a></li>
