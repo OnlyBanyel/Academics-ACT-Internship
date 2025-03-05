@@ -195,7 +195,7 @@
 
 .card {
   width: 490px; /* Increase width by 40% */
-  height: 490px; /* Increase height by 40% */
+  height: 600px; /* Further increase height */
   border: 1px solid #b22222; /* Change border color to red */
   position: relative;
   transform-style: preserve-3d;
