@@ -5,6 +5,7 @@
   </style>
   <script src="../../vendor/jquery-3.7.1/jquery-3.7.1.min.js"></script>
   <script><?php require_once '../../vendor/bootstrap-5.3.3-dist/js/bootstrap.min.js'; ?></script>
+  <script src="../../JS/ccs.script.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>
 
@@ -20,38 +21,72 @@
 
 <main class="main-content">
   <section class="invisible-section">
-  <div class="college-top">
-  <nav class="breadcrumb">
-          <a href="../../academics.php">Academics</a> &gt; <a href="#">Undergraduates</a> &gt; <span>College of Computing Studies</span>
-        </nav>
-    <div class="college-heading">
-      <img src="../../Assets/ccs-logo-proc.png" class="logo" alt="ccs logo">
-      <h2 class="college-header">College of Computing Studies</h2>
-    </div>
+    <div class="college-top">
+      <nav class="breadcrumb">
+        <a href="../../academics.php">Academics</a> &gt; <a href="#">Undergraduates</a> &gt; <span>College of Computing Studies</span>
+      </nav>
+      <div class="college-heading">
+        <img src="../../Assets/ccs-logo-proc.png" class="logo" alt="ccs logo">
+        <h2 class="college-header">College of Computing Studies</h2>
+      </div>
 
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="../../Assets/ccs1.jpg" class="d-block w-100" alt="...">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../../Assets/ccs1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../../Assets/ccs2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../../Assets/ccs3.jpg" class="d-block w-100" alt="...">
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="../../Assets/ccs2.jpg" class="d-block w-100" alt="...">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> <!-- End of carousel -->
+
+      <div class="flex-container">
+        <div class="card-container">
+          <div class="card">
+            <div class="card-front" style="background: linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)), url('../../Assets/ccs1.jpg'); background-size: cover;">
+              <h3>College Goals</h3>
+            </div>
+            <div class="card-back">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            </div>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="../../Assets/ccs3.jpg" class="d-block w-100" alt="...">
+        <div class="card-container">
+          <div class="card">
+            <div class="card-front" style="background: linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)), url('../../Assets/ccs2.jpg'); background-size: cover;">
+              <h3>College Mission</h3>
+            </div>
+            <div class="card-back">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <div class="card-front" style="background: linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)), url('../../Assets/ccs3.jpg'); background-size: cover;">
+              <h3>College Vision</h3>
+            </div>
+            <div class="card-back">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            </div>
+          </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
 
-  </div>
+    </div> <!-- End of college-top -->
+
     <div class="college-info">
       <div class="entry-content-wrapper">
         <div class="entry-content">
