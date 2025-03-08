@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lateef:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 * {
   scroll-behavior: smooth;
 }
@@ -18,19 +17,20 @@ html, body {
   margin: 0; /* Remove side margins */
   box-sizing: border-box; /* Include padding and border in the element's total width and height */
   font-family: "Inter";
-
 }
 
 .carousel {
   z-index: -0.5;
 }
 
-.carousel-inner{
+.carousel-inner {
   height: 30%;
 }
-.carousel-item{
+
+.carousel-item {
   height: 100%;
 }
+
 .logo {
   height: 400px;
   width: 400px;
@@ -100,12 +100,10 @@ html, body {
   color: rgb(96, 93, 93);
 }
 
-
 .carousel img {
   height: 100%;
   filter: blur(5px);
   object-fit: cover;
-
 }
 
 .entry-content-wrapper {
@@ -130,10 +128,10 @@ html, body {
   flex-direction: column;
 }
 
-.college-goals p{
+.college-goals p {
   font-size: 30px;
-
 }
+
 .college-goals li {
   margin-top: 10px;
   font-size: 24px;
@@ -259,15 +257,16 @@ html, body {
   background-position: center;
 }
 
-.card-1{
-  background: linear-gradient(rgba(255, 152, 152, 0.6), rgba(255, 0, 0, 0.6)), url('../../Assets/ccs1.jpg'); /* Red background with 40% opacity image */
+.card-1 {
+  background: linear-gradient(rgba(255, 152, 152, 0.6), rgba(255, 0, 0, 0.6)), url('../../imgs/ccs1.jpg'); /* Red background with 40% opacity image */
 }
-.card-2{
-  background: linear-gradient(rgba(255, 152, 152, 0.6), rgba(255, 0, 0, 0.6)), url('../../Assets/ccs2.jpg'); /* Red background with 40% opacity image */
-}
-.card-3{
-  background: linear-gradient(rgba(255, 152, 152, 0.6), rgba(255, 0, 0, 0.6)), url('../../Assets/ccs3.jpg'); /* Red background with 40% opacity image */
 
+.card-2 {
+  background: linear-gradient(rgba(255, 152, 152, 0.6), rgba(255, 0, 0, 0.6)), url('../../imgs/ccs2.jpg'); /* Red background with 40% opacity image */
+}
+
+.card-3 {
+  background: linear-gradient(rgba(255, 152, 152, 0.6), rgba(255, 0, 0, 0.6)), url('../../imgs/ccs3.jpg'); /* Red background with 40% opacity image */
 }
 
 .card-back {

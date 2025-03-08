@@ -1,9 +1,5 @@
 <head>
-  <link rel="stylesheet" href="../../vendor/bootstrap-5.3.3-dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../../CSS/CCJE-style.css">
-  <script src="../../vendor/jquery-3.7.1/jquery-3.7.1.min.js"></script>
-  <script src="../../vendor/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <?php require_once "../../head.php"; ?>
 </head>
 
 <script>
@@ -23,20 +19,20 @@
         <a href="../../academics.php">Academics</a> &gt; <a href="#">Undergraduates</a> &gt; <span>College of Criminal Justice and Education</span>
       </nav>
       <div class="college-heading">
-        <img src="../../Assets/ccje-logo.png" class="logo" alt="ccje logo">
+        <img src="../../imgs/ccje-logo.png" class="logo" alt="ccje logo">
         <h2 class="college-header">College of Criminal Justice and Education</h2>
       </div>
       
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../../Assets/ccje1.jpg" class="d-block w-100" alt="...">
+            <img src="../../imgs/ccje1.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="../../Assets/ccje2.jpg" class="d-block w-100" alt="...">
+            <img src="../../imgs/ccje2.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="../../Assets/ccje3.jpg" class="d-block w-100" alt="...">
+            <img src="../../imgs/ccje3.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

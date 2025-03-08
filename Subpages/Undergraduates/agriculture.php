@@ -1,23 +1,14 @@
 <head>
-  <style>
-    <?php require_once '../../vendor/bootstrap-5.3.3-dist/css/bootstrap.min.css'; ?>
-    <?php require_once '../../CSS/agriculture-style.css'; ?>  
-  </style>
-  <script src="../../vendor/jquery-3.7.1/jquery-3.7.1.min.js"></script>
-  <script><?php require_once '../../vendor/bootstrap-5.3.3-dist/js/bootstrap.min.js'; ?></script>
-  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <?php require_once "../../head.php"; ?>
 </head>
-
 <script>
   jQuery(function() {
     jQuery('.header').load('../../test-header.php');
   });
 </script>
-
 <section class="header">
   <!-- Header -->
 </section>
-
 <main class="main-content">
   <section class="invisible-section">
   <div class="college-top">

@@ -1,18 +1,14 @@
 <head>
-<style>
-  <?php require_once '../../CSS/college-pages.css'; ?>
-</style>
-<script src="../../vendor/jquery-3.7.1/jquery-3.7.1.min.js"></script>
+  <?php require_once "../../head.php"; ?>
 </head>
-
 <script>
-  jQuery(function(){
+  jQuery(function() {
     jQuery('.header').load('../../test-header.php');
   });
 </script>
-
-<section class="header"></section>
-
+<section class="header">
+  <!-- Header -->
+</section>
 <main class="college-content">
     <nav class="breadcrumb">
         <a href="../../index.php">Home</a> >

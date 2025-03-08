@@ -2,7 +2,6 @@
     <!-- Removed reveal.js references -->
   <style>
     <?php require_once '../../vendor/bootstrap-5.3.3-dist/css/bootstrap.min.css'; ?>
-    <?php require_once '../../CSS/agriculture-style.css'; ?>
     <?php require_once '../../CSS/admissionGuide-style.css'; ?>
   </style>
   <script src="../../vendor/jquery-3.7.1/jquery-3.7.1.min.js"></script>
