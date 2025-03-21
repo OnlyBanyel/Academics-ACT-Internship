@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <head>
   <style>
     <?php require_once '../../vendor/bootstrap-5.3.3-dist/css/bootstrap.min.css'; ?>
@@ -12,6 +13,15 @@
 <script>
   jQuery(function() {
     jQuery('.header').load('../../test-header.php');
+=======
+
+  <?php require_once "../../__includes/head.php"; ?>
+
+
+<script>
+  jQuery(function() {
+    jQuery('.header').load('../../__includes/navbar.php');
+>>>>>>> Stashed changes
   });
 </script>
 
@@ -87,6 +97,7 @@
 
     </div> <!-- End of college-top -->
 
+<<<<<<< Updated upstream
     <div class="college-info">
       <div class="entry-content-wrapper">
         <div class="entry-content">
@@ -115,84 +126,116 @@
                   </ul>
                 </li>
               </ul>
+=======
+  <div class="container mt-4">
+    <!-- Undergraduate Courses Label -->
+    <h3 class="mb-3">Undergraduate Programs</h3>
+>>>>>>> Stashed changes
 
-              <ul>Graduate Programs
-                <li><a href="#mit">MASTER IN INFORMATION TECHNOLOGY</a></li> 
-              </ul>
+    <div class="accordion" id="undergradAccordion">
+        <!-- Bachelor of Science in Computer Science (BSCS) -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#bscsCollapse">
+                    Bachelor of Science in Computer Science (BSCS)
+                </button>
+            </h2>
+            <div id="bscsCollapse" class="accordion-collapse collapse" data-bs-parent="#undergradAccordion">
+                <div class="accordion-body">
+                    <p><strong>Program Objectives/Outcomes:</strong></p>
+                    <ul>
+                        <li>Utilize effectively the concepts of computer science theories and methodologies and adapt new technologies and ideas.</li>
+                        <li>Work cohesively with a team to successfully complete projects.</li>
+                        <li>Pursue personal development and lifelong learning through research and graduate studies.</li>
+                        <li>Communicate effectively with the computing community and society through oral and written correspondence.</li>
+                    </ul>
+                </div>
             </div>
-          </div>
+        </div>
 
-          <div class="undergrad-programs">
-              <h3><strong>Undergraduate Programs Offered:</strong></h3>
-              <p></p>
-
-              <div class="bscs">
-                <p><span class="mild-emphasis" id="bscs">BACHELOR OF SCIENCE IN COMPUTER SCIENCE (BSCS)</spa></p>
-                <p><span>Program Objectives/Outcomes:</span></p>
-                <ul>
-                  <li>Utilize effectively the concepts of computer science theories and methodologies and adapt new technologies and ideas in formulating effective solutions to address public health and safety, cultural, societal, gender and environmental considerations. (Competent Computer Science Professional, Socially Responsive)</li>
-                  <li>Work cohesively with members of a team using their individual skills to the successful completion of a project. (Team Player)</li>
-                  <li>Pursue personal development and lifelong learning through research, graduate studies, training and membership to professional organization to be globally competitive. (Lifelong Learner)</li>
-                  <li>Communicate effectively with the computing community and society through oral and written correspondence. (Effective Communicator)</li>
-                </ul>
-              </div>
-
-              <p></p>
-
-              <div class="bsit">
-                
-                <p><span class="mild-emphasis" id="bsit">BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY (BSIT)</span></p>
-                <p><span>Program Objectives/Outcomes:</span></p>
-                <ul>
-                  <li>Utilizes the concepts on computing theories and methodologies, and mathematical concepts appropriate to the discipline.</li>
-                  <li>Adapts new technologies and ideas in the design, analysis, and implementation of IT-based solutions.</li>
-                  <li>Formulates effective solutions to solve complex computing problems that meet the desired needs and requirements under various constraints through proper research and understanding of the problem.</li>
-                  <li>Function effectively as a member or leader of a development team recognizing the different roles within a team for the successful completion of a project.</li>
-                  <li>Utilizes available technical resources in formulating solutions to computing problems efficiently.</li>
-                  <li>Analyze the impact of information technology and its ethical and social issues on individuals and society.</li>
-                  <li>Produces IT-related research relevant to the concerns of the community locally and globally.</li>
-                  <li>Integrates IT-based projects for the improvement and development of society.</li>
-                  <li>Engage in professional growth and development through self-learning, training, and postgraduate studies relevant to the field of study.</li>
-                </ul>
-              </div>
-
-              <p></p>
-
-              <div class="act">
-                <p><span class="mild-emphasis" id="">ASSOCIATE IN COMPUTER TECHNOLOGY (ACT)</span></p>
-                <ul>
-                  <li><em>Major in Application Development</em></li>
-                  <li><em>Major in Networking</em></li>
-                </ul>
-  
-                <p><span>Program Objectives/Outcomes:</spa></p>
-                <ul>
-                  <li>Develop strong programming skills and the ability to design, implement, and debug computer programs using various programming languages and technologies.&nbsp;</li>
-                  <li>Gain knowledge of the principles and techniques used in analyzing, designing, and documenting computer-based systems to meet user requirements effectively.</li>
-                  <li>Understand the fundamental concepts of computer networking, including network architecture, protocols, and security, and demonstrate the ability to configure and troubleshoot network connections.&nbsp;</li>
-                  <li>Acquire skills in designing and managing databases, including data modeling, querying, and administration, using appropriate database management systems.</li>
-                  <li>Design and develop dynamic and interactive websites using web technologies such as HTML, CSS, JavaScript, and server-side scripting languages, with a focus on usability and accessibility.&nbsp;</li>
-                  <li>Understand the principles of information security, including risk assessment, threat identification, and mitigation, and be able to implement security measures to protect data and systems.&nbsp;</li>
-                  <li>Diagnose and resolve hardware and software issues, perform system maintenance, and troubleshoot common computer problems effectively.</li>
-                  <li>Acquire skills in developing mobile applications for various platforms, such as Android and iOS, using relevant programming languages and frameworks.</li>
-                  <li>Develop effective communication and teamwork skills, enabling the ability to work collaboratively, present technical information, and interact professionally with clients and colleagues.</li>
-                </ul>
-              </div>
-
-          
-            <div class="grad-programs">
-              <h3><strong>Graduate Programs Offered:</strong></h3>
-              <p><span class="mild-emphasis" id="mit">MASTER IN INFORMATION TECHNOLOGY (MIT)</span></p>
-              <p><span>Program Objectives/Outcomes:</span></p>
-              <ul>
-                <li>Demonstrate advanced IT knowledge and skills in a specialized, interdisciplinary, or multidisciplinary field of learning for professional practice.</li>
-                <li>Utilize effectively advanced knowledge and skills in Information Technology through research and software application development that address IT-related problems of the organization and recognize gender responsiveness.</li>
-                <li>Apply a significant level of expertise-based autonomy and accountability to professional leadership for innovation and research in a specialized, interdisciplinary, or multidisciplinary field.</li>
-                <li>Pursue lifelong learning through research with a highly substantial degree of independence in individual work or teams of interdisciplinary or multidisciplinary settings.</li>
-              </ul>
+        <!-- Bachelor of Science in Information Technology (BSIT) -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bsitCollapse">
+                    Bachelor of Science in Information Technology (BSIT)
+                </button>
+            </h2>
+            <div id="bsitCollapse" class="accordion-collapse collapse" data-bs-parent="#undergradAccordion">
+                <div class="accordion-body">
+                    <p><strong>Program Objectives/Outcomes:</strong></p>
+                    <ul>
+                        <li>Utilizes computing theories, methodologies, and mathematical concepts.</li>
+                        <li>Adapts new technologies and ideas in IT-based solutions.</li>
+                        <li>Solves complex computing problems through proper research.</li>
+                        <li>Works effectively as a team member or leader in IT projects.</li>
+                        <li>Uses technical resources efficiently to solve computing problems.</li>
+                        <li>Analyzes ethical and social issues in IT and their impact.</li>
+                        <li>Produces IT-related research relevant to local and global concerns.</li>
+                        <li>Integrates IT-based projects for societal improvement and development.</li>
+                        <li>Engages in professional growth through self-learning and postgraduate studies.</li>
+                    </ul>
+                </div>
             </div>
-        </div><!-- .entry-content -->
-      </div>
+        </div>
+
+        <!-- Associate in Computer Technology (ACT) -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#actCollapse">
+                    Associate in Computer Technology (ACT)
+                </button>
+            </h2>
+            <div id="actCollapse" class="accordion-collapse collapse" data-bs-parent="#undergradAccordion">
+                <div class="accordion-body">
+                    <p><strong>Majors:</strong></p>
+                    <ul>
+                        <li><em>Major in Application Development</em></li>
+                        <li><em>Major in Networking</em></li>
+                    </ul>
+                    <p><strong>Program Objectives/Outcomes:</strong></p>
+                    <ul>
+                        <li>Develop strong programming skills and debugging abilities.</li>
+                        <li>Analyze and design computer-based systems to meet user needs.</li>
+                        <li>Understand computer networking concepts and security.</li>
+                        <li>Manage and administer databases efficiently.</li>
+                        <li>Develop interactive websites using modern web technologies.</li>
+                        <li>Implement security measures to protect data and systems.</li>
+                        <li>Troubleshoot and maintain hardware and software issues.</li>
+                        <li>Develop mobile applications for different platforms.</li>
+                        <li>Enhance communication and teamwork skills for IT projects.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Graduate Programs Label -->
+    <h3 class="mt-5 mb-3">Graduate Programs</h3>
+
+    <div class="accordion" id="gradAccordion">
+        <!-- Master in Information Technology (MIT) -->
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mitCollapse">
+                    Master in Information Technology (MIT)
+                </button>
+            </h2>
+            <div id="mitCollapse" class="accordion-collapse collapse" data-bs-parent="#gradAccordion">
+                <div class="accordion-body">
+                    <p><strong>Program Objectives/Outcomes:</strong></p>
+                    <ul>
+                        <li>Demonstrate advanced IT knowledge and skills in a specialized, interdisciplinary, or multidisciplinary field of learning for professional practice.</li>
+                        <li>Utilize effectively advanced knowledge and skills in Information Technology through research and software application development that address IT-related problems of the organization and recognize gender responsiveness.</li>
+                        <li>Apply a significant level of expertise-based autonomy and accountability to professional leadership for innovation and research in a specialized, interdisciplinary, or multidisciplinary field.</li>
+                        <li>Pursue lifelong learning through research with a highly substantial degree of independence in individual work or teams of interdisciplinary or multidisciplinary settings.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
     </div>
   </section>
 </main>
